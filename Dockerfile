@@ -1,6 +1,6 @@
 # Dockerfile
 # /path/to/your/app/Dockerfile
-FROM repo.forge.lmig.com/docker/ruby:2.5.8
+FROM ruby:2.5.8
 
 RUN apt-get update -qq && apt-get install -y nodejs
 
